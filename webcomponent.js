@@ -13,7 +13,7 @@
 
     d3Script.onload = () => 
 
-    customElements.define('com-sap-teched-gauge-XX', class Gauge extends HTMLElement {
+    customElements.define('com-sap-teched-gauge-22', class Gauge extends HTMLElement {
 
 
         disconnectedCallback () {
@@ -47,7 +47,7 @@
             this._bracketThickness = 5;
 
         };
-        
+
         redraw() {
             if (this._widgetHeight < this._widgetWidth){
                 this._widgetWidth = this._widgetHeight;
